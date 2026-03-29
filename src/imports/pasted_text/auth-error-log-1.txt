@@ -1,0 +1,235 @@
+[Hydrated]
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22102 Loaded data from localStorage (offline mode)
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22092 Auth state changed, updating token
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22111 Loading data from server with access token...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22084 Session found, user ID: 019a865b-b418-4c29-8071-3d92febdbf13
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22092 Auth state changed, updating token
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22112  GET https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22112
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22117 Server response status: 401
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119 Server error response: {"code":401,"message":"Invalid JWT"}
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119
+await in (anonymous)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22127 Error fetching data from server, using localStorage fallback: Error: Server responded with status: 401
+    at 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119:61
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22127
+await in (anonymous)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145  POST https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data/2026-03-28 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152 Failed to save data for 2026-03-28 to server
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this warning
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22391 === Starting Manual Sync ===
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22391 Refreshing session...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22092 Auth state changed, updating token
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22393 Session refresh result: {hasSession: true, hasAccessToken: true, userId: '019a865b-b418-4c29-8071-3d92febdbf13', error: null}
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22402 Using access token: eyJhbGciOiJFUzI1NiIs...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22402 Starting data upload to server...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22404 Uploading data for 2026-03-28...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22111 Loading data from server with access token...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22405  POST https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data/2026-03-28 401 (Unauthorized)
+zl @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22405
+await in zl
+G2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+k2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+w2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+eN @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+AA @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+zg @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+JN @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+sT @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+Tg @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+eW @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22415 Upload failed for 2026-03-28: 401 {"code":401,"message":"Invalid JWT"}
+zl @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22415
+await in zl
+G2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+k2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+w2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+eN @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+AA @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+zg @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+JN @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+sT @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+Tg @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+eW @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22435 === Sync Error === Error: Upload failed: 401 - {"code":401,"message":"Invalid JWT"}
+    at zl (8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22415:74)
+zl @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22435
+await in zl
+G2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+k2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+w2 @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+eN @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+AA @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+zg @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+JN @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+sT @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+Tg @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5
+eW @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:5Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22112  GET https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22112
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22117 Server response status: 401
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119 Server error response: {"code":401,"message":"Invalid JWT"}
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119
+await in (anonymous)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22127 Error fetching data from server, using localStorage fallback: Error: Server responded with status: 401
+    at 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119:61
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22127
+await in (anonymous)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145  POST https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data/2026-03-28 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152 Failed to save data for 2026-03-28 to server
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this warning
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145  POST https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data/2026-03-28 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152 Failed to save data for 2026-03-28 to server
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this warning
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22092 Auth state changed, updating token
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22165 Token refreshed
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22165 Checking for updates from server...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22111 Loading data from server with access token...
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22166  GET https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22166
+setInterval
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22160
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22172 Authentication expired, user needs to sign in again
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22172
+setInterval
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22160
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this warning
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22112  GET https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22112
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22117 Server response status: 401
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119 Server error response: {"code":401,"message":"Invalid JWT"}
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119
+await in (anonymous)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22127 Error fetching data from server, using localStorage fallback: Error: Server responded with status: 401
+    at 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22119:61
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22127
+await in (anonymous)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22138
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145  POST https://zfjckiavlyhohmkicfid.supabase.co/functions/v1/make-server-7cfb0012/data/2026-03-28 401 (Unauthorized)
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22145
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this error
+8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152 Failed to save data for 2026-03-28 to server
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22152
+setTimeout
+(anonymous) @ 8bf22d9a012899c47b7ef7639447d30c604a1fc3.js:22142
+Op @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+ul @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+(anonymous) @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:8
+Yh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1
+Hh @ sites-runtime.bda763cc4a3836c8a7216aa7eb4a70754ddaf01cd68b7f409e80787c6836614e.js:1Understand this warning
