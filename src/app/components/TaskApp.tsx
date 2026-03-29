@@ -767,7 +767,7 @@ export default function TaskApp() {
                 >
                   <p className="font-['Inter:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[32px] text-black whitespace-nowrap">Hello, Anthony</p>
                 </motion.div>
-                <div className="flex items-center gap-[12px] ml-auto">
+                <div className="flex items-center gap-[12px] ml-auto mr-[4px]">
                   {!offlineMode && (
                     <motion.button
                       initial={{ opacity: 0 }}
