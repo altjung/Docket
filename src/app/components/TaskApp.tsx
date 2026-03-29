@@ -70,6 +70,13 @@ export default function TaskApp() {
   const [accessToken, setAccessToken] = useState<string | null>(null);
   const [isCheckingAuth, setIsCheckingAuth] = useState(true);
   const [offlineMode, setOfflineMode] = useState(false);
+  const [isDark, setIsDark] = useState(() => localStorage.getItem('docket-dark') === 'true');
+
+  const toggleDark = () => setIsDark(prev => {
+    const next = !prev;
+    localStorage.setItem('docket-dark', next ? 'true' : 'false');
+    return next;
+  });
   
   // Store data by date string (YYYY-MM-DD)
   const [dayData, setDayData] = useState<Record<string, DayData>>({});
@@ -726,7 +733,26 @@ export default function TaskApp() {
   }
 
   return (
-    <div className="bg-[#f6f6f6] overflow-clip relative size-full" data-name="iPhone 13 & 14 - 3">
+    <div className="bg-[#f6f6f6] overflow-clip relative size-full" data-name="iPhone 13 & 14 - 3" data-dark={isDark ? 'true' : undefined}>
+      <style>{`
+        [data-dark="true"].bg-\\[\\#f6f6f6\\],[data-dark="true"] .bg-\\[\\#f6f6f6\\]{background-color:#121212!important}
+        [data-dark="true"] .bg-\\[\\#e9e7e7\\]{background-color:#262626!important}
+        [data-dark="true"] .bg-\\[\\#d6d6d6\\]{background-color:#333!important}
+        [data-dark="true"] .bg-\\[\\#d9d9d9\\]{background-color:#333!important}
+        [data-dark="true"] .bg-\\[\\#747474\\]{background-color:#3d3d3d!important}
+        [data-dark="true"] .bg-white{background-color:#1a1a1a!important}
+        [data-dark="true"] .text-black{color:#f1f1f1!important}
+        [data-dark="true"] .text-\\[\\#a0a0a0\\]{color:#777!important}
+        [data-dark="true"] .text-\\[\\#666\\]{color:#999!important}
+        [data-dark="true"] .hover\\:text-black:hover{color:#f1f1f1!important}
+        [data-dark="true"] .hover\\:bg-\\[\\#f0f0f0\\]:hover{background-color:#2a2a2a!important}
+        [data-dark="true"] .border-\\[\\#333\\]{border-color:#555!important}
+        [data-dark="true"] .bg-gradient-to-t{background:linear-gradient(to top,#121212,transparent)!important}
+        [data-dark="true"] path[fill="#1C1B1F"]{fill:#f1f1f1!important}
+        [data-dark="true"] [data-name="cached"] path{fill:#f1f1f1!important}
+        [data-dark="true"] input{color:#f1f1f1!important}
+        [data-dark="true"] input::placeholder{color:#555!important}
+      `}</style>
       <div className="absolute content-stretch flex flex-col h-[844px] items-start left-0 px-[16px] py-[48px] top-0 w-[390px]">
         <div className="relative shrink-0 w-full">
           <div className="content-stretch flex flex-col gap-[10px] items-start relative w-full">
@@ -766,6 +792,15 @@ export default function TaskApp() {
                       <Cached />
                     </motion.button>
                   )}
+                  <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    onClick={toggleDark}
+                    className="size-[24px] flex items-center justify-center cursor-pointer hover:opacity-70 transition-opacity"
+                    title={isDark ? 'Light mode' : 'Dark mode'}
+                  >
+                    {isDark ? <SunIcon /> : <MoonIcon />}
+                  </motion.button>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -1179,7 +1214,7 @@ export default function TaskApp() {
                           opacity: 1, 
                           y: 0,
                           x: swipedTaskId === task.id ? -146 : 0,
-                          backgroundColor: task.completed ? '#747474' : '#e9e7e7'
+                          backgroundColor: task.completed ? (isDark ? '#3d3d3d' : '#747474') : (isDark ? '#262626' : '#e9e7e7')
                         }}
                         exit={{ opacity: 0, scale: 0.8 }}
                         transition={{ duration: 0.3, delay: index * 0.05 }}
@@ -1227,7 +1262,7 @@ export default function TaskApp() {
                               whileTap={{ scale: 0.95 }}
                               onClick={() => handleCompleteTask(task.id)}
                               animate={{
-                                backgroundColor: task.completed ? '#bfe260' : '#e9e7e700'
+                                backgroundColor: task.completed ? '#bfe260' : (isDark ? '#33333300' : '#e9e7e700')
                               }}
                               className="relative rounded-[12px] shrink-0 w-[86px] px-[16px] py-[8px] cursor-pointer"
                             >
@@ -1519,6 +1554,23 @@ function AddCircle() {
         </g>
       </svg>
     </div>
+  );
+}
+
+function MoonIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" fill="#1C1B1F"/>
+    </svg>
+  );
+}
+
+function SunIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="4" fill="#f1f1f1"/>
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" stroke="#f1f1f1" strokeWidth="2" strokeLinecap="round"/>
+    </svg>
   );
 }
 
